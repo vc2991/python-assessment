@@ -14,3 +14,4 @@ x=pd.to_datetime(x)
 y=data.iloc[:,1]
 
 plt.plot_date(x,y)
+plt.bar(x,y)
