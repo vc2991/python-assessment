@@ -1,0 +1,9 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as dt
+from datetime import datetime
+td=pd.read_excel("/Users/vardaan/Downloads/Time use Data - Processed  for Class (1) (1).xlsx")
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+
+print(td.keys())
